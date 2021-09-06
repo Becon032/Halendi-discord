@@ -3,14 +3,14 @@ module.exports = {
     description: "Adds users to discord roles based on reaction",
     async execute(Discord, client){
 
-        const selectChannel = '884240082872176690';
+        const selectChannel = '881998670206218351';
 
         //clans
-        const mossi = '884243079161344000';
-        const feusagen = '884258493887025223';
-        const virnue = '867152145169514526';
-        const wigan = '867152145169514526';
-        const issar = '867152145169514526';
+        const mossi = '881639026635997187';
+        const feusagen = '882010816860266586';
+        const virnue = '883385757379723375';
+        const wigan = '882010903460057139';
+        const issar = '881489987214901279';
 
         //clans emois
         const mosiEmoji = '🐒';

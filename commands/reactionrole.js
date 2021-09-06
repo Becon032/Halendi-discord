@@ -23,18 +23,18 @@ module.exports = {
                 .setColor('#aabe14')
                 .setTitle('Clan Mosi')
                 .setDescription('The Mosi clan is a clan that is more based in forests. We use a Nordic aesthetic but with a cletic twist. we mainly will be dealing with hunting, wood and materjals. We encourage a warrior culture. We also encourage going out to sea and bringing back slaves. \n "To conquer or die"')
-                .setImage('https://media.discordapp.net/attachments/869545485143248906/884245873272426496/80px-Clan_member_crest_badge_-_Clan_MacDougall.png?width=564&height=676');
+                .setImage('https://media.discordapp.net/attachments/869545485143248906/884544784755208243/mosi_crest.png?width=564&height=676');
             const feusagenEmbed = new MessageEmbed()
                 .setColor('#e67a38')
                 .setTitle('Clan Feusagen')
-                .setDescription("The Feusagan Clan is a clan made up of sigma males who don't wear pants aka Norse Highlanders. We will run in the highlands wearing kilts with nothing underneath and then go back to our houses and bang your mothers.\n We can transform you from a sad beta playing minecraft to a SIGMA that is GAMING")
+                .setDescription('Hello! We are Clan Feusagan\nBuilding, fighting, taming beasts, and civilizing the highlands are what we sigma Feusagans are about. We try our hardest to make our buildings Gaelic in functionality and Nordic in design, we mainly build in a circular shape with very tall roofs for snow and rain. Our clan is for the strongest who are not weak-minded and who value the strength of the mind and the body. Come to the highlands with us, we will make you a kilt, give you a place in our homes, and we’ll all go hunting.\nOur motto represents our values which are “Power o’ mindset, braun o’ body.”')
                 .setImage('https://media.discordapp.net/attachments/884488168018182165/884489464750145586/Clan_Feusagan_Crest.png?width=564&height=676');
                 
             const virnueEmbed = new MessageEmbed()
                 .setColor('#1c5a07')
                 .setTitle('Clan Virnue')
                 .setDescription("The Virnue Clan waits for you! based on the Celtiberian culture this clan bases its economy in the Agriculture and animals wich are very important for our nation, we also encourage a warrior tradition meaning that we will be eager to create a powerful army for the nation!")
-                .setImage('https://media.discordapp.net/attachments/869545485143248906/884246406242652220/Clan_Crest.png?width=564&height=676');
+                .setImage('https://media.discordapp.net/attachments/869545485143248906/884545888192704532/virnueCrest.png?width=564&height=676');
             
             const wiganEmbed = new MessageEmbed()
                 .setColor('#22a21e')

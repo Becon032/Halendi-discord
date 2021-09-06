@@ -35,7 +35,7 @@ module.exports = {
                 //check if already user has one of that role
 
                 if(userId.roles.cache.has(mossi)){
-                    console.log("user has mossi  role already");
+                    console.log("user has mossi role already");
                     return;
                 } else if(userId.roles.cache.has(feusagen)){
                     console.log("user has feusagen role already");

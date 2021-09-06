@@ -5,7 +5,7 @@ module.exports = {
     async execute(message, arg, Discord, client) {
 
         const { MessageEmbed } = require('discord.js');
-        const selectChannel = '884240082872176690';
+        const selectChannel = '881998670206218351';
 
         //clans emois
         const mosiEmoji = '🐒';
@@ -53,8 +53,6 @@ module.exports = {
             message.channel.send({ embeds: [virnueEmbed] });
             message.channel.send({ embeds: [wiganEmbed] });
             message.channel.send({ embeds: [issarEmbed] });
-
-        } else if(message.channel.id === cityChannel){
 
         } else {
             message.channel.send('Wrong channel to use that command');

@@ -34,7 +34,7 @@ module.exports = {
                 .setColor('#1c5a07')
                 .setTitle('Clan Virnue')
                 .setDescription("The Virnue Clan waits for you! based on the Celtiberian culture this clan bases its economy in the Agriculture and animals wich are very important for our nation, we also encourage a warrior tradition meaning that we will be eager to create a powerful army for the nation!")
-                .setImage('https://media.discordapp.net/attachments/869545485143248906/884545888192704532/virnueCrest.png?width=564&height=676');
+                .setImage('https://cdn.discordapp.com/attachments/862102425649152010/885149663735455765/virnueCrest.png?width=564&height=676');
             
             const wiganEmbed = new MessageEmbed()
                 .setColor('#22a21e')

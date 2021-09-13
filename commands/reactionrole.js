@@ -22,7 +22,7 @@ module.exports = {
             const mosiEmbed = new MessageEmbed()
                 .setColor('#aabe14')
                 .setTitle('Clan Mosi')
-                .setDescription('The Mosi clan is a clan that is more based in forests. We use a Nordic aesthetic but with a cletic twist. we mainly will be dealing with hunting, wood and materjals. We encourage a warrior culture. We also encourage going out to sea and bringing back slaves. \n "To conquer or die"')
+                .setDescription("You have read through these other clans in Halendi, don't they seem stereotypical? maybe even bland? The Mosi people are the exception when it comes to the tribal norms, yes we inherent tribal warrior skills who fight to the death and conquer others from the confines of the forest, however what separates us from the others are our intellectual skills to teach and promote magic. Come join our clan our moto is conquer or die!")
                 .setImage('https://media.discordapp.net/attachments/869545485143248906/884544784755208243/mosi_crest.png?width=564&height=676');
             const feusagenEmbed = new MessageEmbed()
                 .setColor('#e67a38')

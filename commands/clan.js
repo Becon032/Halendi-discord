@@ -17,6 +17,12 @@ module.exports = {
         const wiganEmoji = '🐗';
         const issarEmoji = '🧊';
 
+        //clan channels
+        const mossiChannel = '885077884513972254';
+        const virnueChannel = '884889025633222727';
+        const wiganChannel = '885193367649124392';
+        const issarChannel = '885582721680805898';
+
 
         client.on('messageReactionAdd', async (reaction, user) => {
             if(reaction.message.partial) await reaction.message.fetch();
@@ -49,15 +55,19 @@ module.exports = {
                 switch(reaction.emoji.name){
                     case mosiEmoji:
                         userId.roles.add(mossi);
+                        client.channels.cache.get(mossiChannel).send('Welcome <@' + userId + '> to the red forests of Mosi!');
                         break;
                     case virnueEmoji:
                         userId.roles.add(virnue);
+                        client.channels.cache.get(virnueChannel).send('Welcome <@' + userId + '> to the green fields of Virnue!');
                         break;
                     case wiganEmoji:
                         userId.roles.add(wigan);
+                        client.channels.cache.get(wiganChannel).send('Welcome <@' + userId + '> to Clan Wigan!');
                         break;
                     case issarEmoji:
                         userId.roles.add(issar);
+                        client.channels.cache.get(issarChannel).send('Welcome <@' + userId + '> to the land of Stone and Ice, Welcome to clan Issar!');
                         break;
                     default:
                         console.error("there is no emoji like that");

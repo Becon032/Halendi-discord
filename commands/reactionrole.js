@@ -9,7 +9,6 @@ module.exports = {
 
         //clans emois
         const mosiEmoji = '🐒';
-        const feusagenEmoji = '🌙';
         const virnueEmoji = '🐐';
         const wiganEmoji = '🐗';
         const issarEmoji = '🧊';
@@ -24,11 +23,6 @@ module.exports = {
                 .setTitle('Clan Mosi')
                 .setDescription("You have read through these other clans in Halendi, don't they seem stereotypical? maybe even bland? The Mosi people are the exception when it comes to the tribal norms, yes we inherent tribal warrior skills who fight to the death and conquer others from the confines of the forest, however what separates us from the others are our intellectual skills to teach and promote magic. Come join our clan our moto is conquer or die!")
                 .setImage('https://media.discordapp.net/attachments/869545485143248906/884544784755208243/mosi_crest.png?width=564&height=676');
-            const feusagenEmbed = new MessageEmbed()
-                .setColor('#e67a38')
-                .setTitle('Clan Feusagen')
-                .setDescription('Hello! We are Clan Feusagan\nBuilding, fighting, taming beasts, and civilizing the highlands are what we sigma Feusagans are about. We try our hardest to make our buildings Gaelic in functionality and Nordic in design, we mainly build in a circular shape with very tall roofs for snow and rain. Our clan is for the strongest who are not weak-minded and who value the strength of the mind and the body. Come to the highlands with us, we will make you a kilt, give you a place in our homes, and we’ll all go hunting.\nOur motto represents our values which are “Power o’ mindset, braun o’ body.”')
-                .setImage('https://media.discordapp.net/attachments/884488168018182165/884489464750145586/Clan_Feusagan_Crest.png?width=564&height=676');
                 
             const virnueEmbed = new MessageEmbed()
                 .setColor('#1c5a07')

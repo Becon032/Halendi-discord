@@ -7,14 +7,12 @@ module.exports = {
 
         //clans
         const mossi = '881639026635997187';
-        const feusagen = '882010816860266586';
         const virnue = '883385757379723375';
         const wigan = '882010903460057139';
         const issar = '881489987214901279';
 
         //clans emois
         const mosiEmoji = '🐒';
-        const feusagenEmoji = '🌙';
         const virnueEmoji = '🐐';
         const wiganEmoji = '🐗';
         const issarEmoji = '🧊';
@@ -37,9 +35,6 @@ module.exports = {
                 if(userId.roles.cache.has(mossi)){
                     console.log("user has mossi role already");
                     return;
-                } else if(userId.roles.cache.has(feusagen)){
-                    console.log("user has feusagen role already");
-                    return;
                 } else if(userId.roles.cache.has(virnue)){
                     console.log("user has virnue role already");
                     return;
@@ -54,9 +49,6 @@ module.exports = {
                 switch(reaction.emoji.name){
                     case mosiEmoji:
                         userId.roles.add(mossi);
-                        break;
-                    case feusagenEmoji:
-                        userId.roles.add(feusagen)
                         break;
                     case virnueEmoji:
                         userId.roles.add(virnue);

@@ -43,7 +43,6 @@ module.exports = {
                 .setImage('https://media.discordapp.net/attachments/869545485143248906/884246905947840602/clan_emblem2.png?width=564&height=676');
         
             message.channel.send({ embeds: [mosiEmbed] });
-            message.channel.send({ embeds: [feusagenEmbed] });
             message.channel.send({ embeds: [virnueEmbed] });
             message.channel.send({ embeds: [wiganEmbed] });
             message.channel.send({ embeds: [issarEmbed] });

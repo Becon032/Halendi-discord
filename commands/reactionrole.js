@@ -34,7 +34,7 @@ module.exports = {
                 .setColor('#22a21e')
                 .setTitle('Clan Wīgan')
                 .setDescription('We await your arrival, to join our renowned clan!\nHunting, fighting and carousing are the three core tenets of Clan Wīgan. We build in a unique design, placing a large focus on our renowned Brochs and Roundhouses. This clan is for those who want to hunt beasts and man alike; build sprawling revered settlements that will stand the test of time and to gather in our Brochs to drink and have a laugh.\n\nOur Motto is "ÆLÍF HUNTIAN ON ÆLÍF ALDOR" which translates from Wīgan speak to "Eternal hunting and Eternal life".')
-                .setImage('https://images-ext-1.discordapp.net/external/ZMkxVkZzoCYMsxOrf9TtHYk05geMSIKmA2--yL3lRP0/https/cdn.mee6.xyz/guild-images/881266035104301138/3d7b8dc16a0f37e74173563145de22add0321bb4b69d3bff1893e8d210cfffd9.png?width=564&height=676');
+                .setImage('https://cdn.discordapp.com/attachments/881292261248348231/921479120511172628/ClanWiganSmall.png?width=564&height=676');
 
             const issarEmbed = new MessageEmbed()
                 .setColor('#4dabe7')

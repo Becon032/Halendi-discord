@@ -42,10 +42,26 @@ module.exports = {
                 .setDescription('We are Clan Issar, if you wish to join a hardy clan living out in the frigid snowy wastes then we are the clan for you! Our leader prides himself in rebellious studies, making our clan the most scholarly out of all the others. So join today if you think you can survive out in the cold with us!')
                 .setImage('https://media.discordapp.net/attachments/869545485143248906/884246905947840602/clan_emblem2.png?width=564&height=676');
         
-            message.channel.send({ embeds: [mosiEmbed] });
-            message.channel.send({ embeds: [virnueEmbed] });
-            message.channel.send({ embeds: [wiganEmbed] });
-            message.channel.send({ embeds: [issarEmbed] });
+            message.channel.send({ embeds: [mosiEmbed] }).then(function (message) {
+                message.react(mosiEmoji)
+                }).catch(function() {
+                //msg.channel.send("i am broken now, idk why")
+            });
+            message.channel.send({ embeds: [virnueEmbed] }).then(function (message) {
+                message.react(virnueEmbed)
+                }).catch(function() {
+                //msg.channel.send("i am broken now, idk why")
+            });
+            message.channel.send({ embeds: [wiganEmbed] }).then(function (message) {
+                message.react(wiganEmbed)
+                }).catch(function() {
+                //msg.channel.send("i am broken now, idk why")
+            });
+            message.channel.send({ embeds: [issarEmbed] }).then(function (message) {
+                message.react(issarEmbed)
+                }).catch(function() {
+                //msg.channel.send("i am broken now, idk why")
+            });
 
         } else {
             message.channel.send('Wrong channel to use that command');

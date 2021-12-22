@@ -45,22 +45,22 @@ module.exports = {
             message.channel.send({ embeds: [mosiEmbed] }).then(function (message) {
                 message.react(mosiEmoji)
                 }).catch(function() {
-                msg.channel.send("i am broken now, idk why")
+                //msg.channel.send("i am broken now, idk why")
             });
             message.channel.send({ embeds: [virnueEmbed] }).then(function (message) {
-                message.react(virnueEmbed)
+                message.react(virnueEmoji)
                 }).catch(function() {
-                msg.channel.send("i am broken now, idk why")
+                //msg.channel.send("i am broken now, idk why")
             });
             message.channel.send({ embeds: [wiganEmbed] }).then(function (message) {
-                message.react(wiganEmbed)
+                message.react(wiganEmoji)
                 }).catch(function() {
-                msg.channel.send("i am broken now, idk why")
+                //msg.channel.send("i am broken now, idk why")
             });
             message.channel.send({ embeds: [issarEmbed] }).then(function (message) {
-                message.react(issarEmbed)
+                message.react(issarEmoji)
                 }).catch(function() {
-                msg.channel.send("i am broken now, idk why")
+                //msg.channel.send("i am broken now, idk why")
             });
 
         } else {

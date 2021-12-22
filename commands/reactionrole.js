@@ -21,8 +21,8 @@ module.exports = {
             const mosiEmbed = new MessageEmbed()
                 .setColor('#aabe14')
                 .setTitle('Clan Mosi')
-                .setDescription("You have read through these other clans in Halendi, don't they seem stereotypical? maybe even bland? The Mosi people are the exception when it comes to the tribal norms, yes we inherent tribal warrior skills who fight to the death and conquer others from the confines of the forest, however what separates us from the others are our intellectual skills to teach and promote magic. Come join our clan our moto is conquer or die!")
-                .setImage('https://media.discordapp.net/attachments/869545485143248906/884544784755208243/mosi_crest.png?width=564&height=676');
+                .setDescription('We are clan Mosi. We are clan that will fight for our will to live, we are a clan that will not stray away from a fight. We live in The  Great Red Forest and in the Great Three Lakes. We have a small proud navy that protects our coastline and we have local magic and hunting tradition. We have a saying in the Mosi clan "if you die and you have not seen combat have you really lived a life".')
+                .setImage('https://media.discordapp.net/attachments/886997306778460190/923228940083007548/mosi3.png?width=564&height=676');
                 
             const virnueEmbed = new MessageEmbed()
                 .setColor('#1c5a07')

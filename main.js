@@ -24,7 +24,7 @@ client.once('ready', () => {
     client.commands.get('clan').execute(Discord, client);
 });
 
-client.on('message', message => {
+client.on('messageCreate', message => {
 
     if(!message.content.startsWith(prefix) || message.author.bot) return;
     

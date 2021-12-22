@@ -30,11 +30,14 @@ client.on('messageCreate', message => {
     
     const args = message.content.slice(prefix.length).split(/ +/);
     const command = args.shift().toLowerCase();
+    const author = message.author;
 
     if(command === 'ping'){
         client.commands.get('ping').execute(message, args);
     } else if (command == 'reactionrole'){
         client.commands.get('reactionrole').execute(message, args);
+    } else if (command == 'suggestion'){
+        client.commands.get('suggestion').execute(message, args, author, client);
     }
 
 });

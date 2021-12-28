@@ -12,6 +12,7 @@ module.exports = {
         const virnueEmoji = '🐐';
         const wiganEmoji = '🐗';
         const issarEmoji = '🧊';
+        const feusaganEmoji = '🌲';
 
 
         if(message.channel.id === selectChannel){
@@ -27,7 +28,7 @@ module.exports = {
             const virnueEmbed = new MessageEmbed()
                 .setColor('#1c5a07')
                 .setTitle('Clan Virnue')
-                .setDescription("The Virnue Clan waits for you! based on the Celtiberian culture this clan bases its economy in the Agriculture and animals wich are very important for our nation, we also encourage a warrior tradition meaning that we will be eager to create a powerful army for the nation!")
+                .setDescription("The Virnue Clan waits for you! based on the Celtiberian culture this clan bases its economy in the Agriculture and animals with are very important for our nation, we also encourage a warrior tradition meaning that we will be eager to create a powerful army for the nation!")
                 .setImage('https://cdn.discordapp.com/attachments/862102425649152010/885149663735455765/virnueCrest.png?width=564&height=676');
             
             const wiganEmbed = new MessageEmbed()
@@ -41,6 +42,12 @@ module.exports = {
                 .setTitle('Clan Issar')
                 .setDescription('We are Clan Issar, if you wish to join a hardy clan living out in the frigid snowy wastes then we are the clan for you! Our leader prides himself in rebellious studies, making our clan the most scholarly out of all the others. So join today if you think you can survive out in the cold with us!')
                 .setImage('https://media.discordapp.net/attachments/869545485143248906/884246905947840602/clan_emblem2.png?width=564&height=676');
+
+            const feusagenEmbed = new MessageEmbed()
+                .setColor('#4dabe7')
+                .setTitle('Clan Feusagan')
+                .setDescription('Hello! We are Clan Feusagan \n\nBuilding, fighting, taming beasts, and civilizing the forests are what we sigma Feusagans are about. We are a seafaring clan, the leader Odin is notorious for his longboats that he built with his own 2 hands. Come to our village in Turtarheim, I will invite you into my home, make you a kilt, and take you sailing. \n\nOur motto represents our values which are “Power o’ mindset, braun o’ body.”')
+                .setImage('https://cdn.discordapp.com/attachments/884488168018182165/884489464750145586/Clan_Feusagan_Crest.png?width=564&height=676');
         
             message.channel.send({ embeds: [mosiEmbed] }).then(function (message) {
                 message.react(mosiEmoji)
@@ -59,6 +66,11 @@ module.exports = {
             });
             message.channel.send({ embeds: [issarEmbed] }).then(function (message) {
                 message.react(issarEmoji)
+                }).catch(function() {
+                //msg.channel.send("i am broken now, idk why")
+            });
+            message.channel.send({ embeds: [feusagenEmbed] }).then(function (message) {
+                message.react(feusaganEmoji)
                 }).catch(function() {
                 //msg.channel.send("i am broken now, idk why")
             });
